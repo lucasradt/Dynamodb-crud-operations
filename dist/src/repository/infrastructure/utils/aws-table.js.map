@@ -1,0 +1,1 @@
+{"version":3,"file":"aws-table.js","sourceRoot":"","sources":["../../../../../src/repository/infrastructure/utils/aws-table.ts"],"names":[],"mappings":";;;AAAA,SAAgB,cAAc;IAC5B,MAAM,EAAE,GAAG,EAAE,cAAc,EAAE,GAAG,OAAO,CAAC,GAAG,CAAC;IAC5C,IAAI,GAAG,IAAI,cAAc,KAAK,MAAM,EAAE,CAAC;QACrC,OAAO,IAAI,GAAG,EAAE,CAAC;IACnB,CAAC;IACD,OAAO,EAAE,CAAC;AACZ,CAAC;AAND,wCAMC"}

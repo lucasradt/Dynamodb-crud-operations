@@ -1,0 +1,1 @@
+{"version":3,"file":"aws-dynamodb-config.js","sourceRoot":"","sources":["../../../../../src/repository/infrastructure/utils/aws-dynamodb-config.ts"],"names":[],"mappings":";;;AAAA,SAAgB,SAAS;IACvB,MAAM,EAAE,MAAM,EAAE,eAAe,EAAE,GAAG,OAAO,CAAC,GAAG,CAAC;IAChD,OAAO;QACL,QAAQ,EAAE,eAAe;QACzB,MAAM,EAAE,MAAM;KACf,CAAC;AACJ,CAAC;AAND,8BAMC"}

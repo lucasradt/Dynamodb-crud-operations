@@ -1,0 +1,36 @@
+{
+  "name": "dynamodb-crud-operations",
+  "version": "1.0.0",
+  "description": "A library to connect to DynamoDB and do operations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "tslint": "tslint -c tslint.json 'src/**/*.ts'",
+    "test": "npm run build && REGION=localhost DYNAMO_ENDPOINT=http://localhost:8000 node dist/test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://"
+  },
+  "author": "Lucas Oliveira Radtke",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.490.0",
+    "@aws-sdk/lib-dynamodb": "^3.490.0",
+    "@aws-sdk/util-dynamodb": "^3.490.0",
+    "aws-sdk": "^2.1536.0",
+    "reflect-metadata": "0.2.1",
+    "uuid": "9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.2",
+    "@types/uuid": "9.0.7",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  }
+}
